@@ -1,0 +1,159 @@
+.resumeContainer{
+    background-color: 	#E6E6FA;
+}
+.navBarContainer{
+    padding: 20px 10px 20px 10px;
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navBarContainer a{
+    padding: 30px 35px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.myName{
+    padding: 25px 30px;
+    font-size: 30px;
+    color: 	#ffbb00;
+}
+.home{
+    text-decoration: none;
+  }
+  .home:hover{
+    text-decoration: underline;
+    color: #ffbb00;
+  }
+  .about{
+    text-decoration: none;
+  }
+  .about:hover{
+    text-decoration: underline;
+    color: #ffbb00;
+  }
+  .resume{
+    text-decoration: none;
+  }
+  .resume:hover{
+    text-decoration: underline;
+    color: #ffbb00;
+  }
+  .education{
+    text-decoration: none;
+  }
+  .education:hover{
+    text-decoration: underline;
+    color: #ffbb00;
+  }
+  .experience{
+    text-decoration: none;
+  }
+  .experience:hover{
+    text-decoration: underline;
+    color: #ffbb00;
+  }
+  .contact{
+    text-decoration: none;
+  }
+  .contact:hover{
+    text-decoration: underline;
+    color: #ffbb00;
+  }
+.introContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.menuIconContainer{
+  display: none;
+}
+
+.buttonContainer{
+    padding: 30px 35px;
+    display: flex;
+    gap: 1rem;
+}
+.left{
+    display: inline-block;
+    font-size: 20px;
+    padding: 35px 40px;
+    color: black;
+    width: 50%;
+
+}
+.right{
+    display: inline-block;
+    width: 50%;
+}
+.myPicture{
+    display: grid;
+    place-items: center;
+    width: min(25rem, 90%);
+    border-radius: 100%;
+    width: 150px;
+    height: 200px;
+    padding: 20px 30px;
+    margin-right:400px;
+}
+@media (max-width: 767px) {
+  .aboutMe{
+    display: none;
+  }
+  .menuIconContainer{
+    display: block;
+  }
+  .left{
+    width: 100%;
+  }
+  .introContainer{
+    flex-wrap: wrap;
+  }
+}
+.hireMe{
+    margin-left: 10px;
+    background-color: var(--primary-color);
+    padding: 5px 10px;
+    font-size: 25px;
+    border: 1px solid;
+    border-radius: 10px;
+    transition-property: .3s;
+    cursor: pointer;
+}
+.hireMe:hover{
+    background-color:#ffbb00;
+}
+.contactMe{
+    background-color: var(--primary-color);
+    padding: 5px 10px;
+    font-size: 25px;
+    border: 1px solid;
+    border-radius: 10px;
+    transition-property: .3s;
+    cursor: pointer;
+}
+.contactMe:hover{
+    background-color: #ffbb00;
+}
+.mobileIconContainer{
+  margin-left: 40px;
+}
+.mobileNum{
+  font-size: 25px;
+}
+.mobileIcon{
+  margin-right: 25px;
+  color: #ffbb00;
+}
+.mailIconContainer{
+  margin-left: 40px;
+}
+.mailAddress{
+  font-size: 25px;
+}
+.mailIcon{
+  margin-right: 25px;
+  color: #ffbb00;
+}
